@@ -1,6 +1,6 @@
 # Priority Message Queue
 
-Es soll mit Hilfe von `wait()` und `notifyAll(`), eine Message Queue erstellt werden, in der Nachrichten von `Producer` erzeugt werden und `Consumer`, diese Nachrichten aus der `MessqgeQueue` holen. Das Abholen der Messages soll generell nach dem **FIFO** Prinzip erfolgen. Eine `Message` besteht aus einem Prirority-Flag und dem eigentlichen Content (String). Messages, bei denen das Priority Flag auf `true` gesetzt ist, sollen vorgereiht werden - wobei auch für Priority Nachrichten das **FIFO** Prinzip angewandt wreden soll.
+Es soll mit Hilfe von `wait()` und `notifyAll(`), eine Message Queue erstellt werden, in der Nachrichten von `Producer` erzeugt werden und `Consumer`, diese Nachrichten aus der `MessqgeQueue` holen. Das Abholen der Messages soll generell nach dem **FIFO** Prinzip erfolgen. Eine `Message` besteht aus einem Prirority-Flag und dem eigentlichen Content (String). Messages, bei denen das Priority Flag auf `true` gesetzt ist, sollen vorgereiht werden - wobei auch für Priority Nachrichten das **FIFO** Prinzip angewandt werden soll.
 
 ![Priority Message Queue](PriorityMessageQueuedrawio.drawio.png)
 
